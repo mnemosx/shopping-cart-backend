@@ -1,25 +1,30 @@
-# Store
+# Store backend
+- using express.js
+
+## Exercise requirements:
+---
 
 Create a node.js application which can serve contents of [store.csv](./store.csv) through the json api.
 
 API described below is not really something you would see in a real life, for sake of training there will be some illogical things.  
 
-## Setting Up
+### Setting Up
 
 You will need a new `npm` project, but make sure you include everything from this directory in your project.
 
 [Here](https://dev.to/asciidev/testing-a-nodeexpress-application-with-mocha--chai-4lho) is a great tutorial on how to create a simple express app.
 
-## Useful libraries
+### Useful libraries
 
  - [`express`](https://www.npmjs.com/package/express)
  - [`csvtojson`](https://www.npmjs.com/package/csvtojson)
 
-## Submitting
+### Submitting
 
-Submit your work in a new repository called `store-backend` in your github account, by creating pull request to your teacher. 
+Project has been deployed on [Heroku](https://store-nodejs-backend.herokuapp.com/)
 
-## API Documentation
+### API Documentation
+---
 
 ### Fetch configuration
 
